@@ -9,7 +9,9 @@
 
 ## Description
 
-Install the Nagios Cross-Platform Agent on RHEL.
+Install the Nagios Cross-Platform Agent on RHEL. 
+
+Based on work from gerapeldoorn (https://forge.puppet.com/gerapeldoorn)
 
 ## Usage
 
@@ -24,11 +26,13 @@ ncpa::community_string: 123413242134
 
 ## Limitations
 
-Currently only works for RHEL.
+Currently only works for RHEL 7.
+
+I have plans to get this working older versions of RHEL as well as Debian.
 
 ## Development
 
-Feel free to submit a PR
+https://github.com/peter-manton/puppet-ncpa
 
 ## Release Notes
 ## 0.3.0 Made upgrade possible for nagios package (added parameter)
